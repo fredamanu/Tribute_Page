@@ -1,0 +1,85 @@
+body {
+  background-color: #fff;
+}
+
+.container-main {
+  width: 97%;
+  margin: 40px auto;
+  position: relative;
+  background-color: #eeeeee;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px 0;
+}
+
+.container-main > h1 {
+  margin: 0 0 15px;
+}
+
+.container-main > p {
+  font-size: 16px;
+}
+
+#img-div {
+  width: 95%;
+  margin: 15px auto 0;
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+#image {
+  display: block;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+#img-caption {
+  font-size: 14px;
+  width: 78%;
+  margin: 10px auto 0;
+}
+
+#tribute-info {
+  padding: 40px 0;
+  width: 95%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 900px) {
+  #tribute-info {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+ul > li {
+  text-align: left;
+}
+
+span {
+  font-weight: 600;
+}
+
+#citation {
+  text-align: left;
+  max-width: 70%;
+  margin: 40px auto 20px;
+}
+
+#read-more {
+  margin: 40px auto 0;
+  max-width: 95%;
+}
+
+#read-more > a {
+  text-decoration: none;
+  color: gray;
+}
+
+#read-more > a:hover {
+  color: red;
+}
